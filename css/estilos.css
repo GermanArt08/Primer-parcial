@@ -3,5 +3,62 @@
 #contenedor {
     width: 100%;
     max-width: 960px;
-    font-family: ;
+    font-family: 'Arvo', sans-serif;
+    margin: 0 auto;
+}
+body {
+    background-image: url(../img/fondo.png);
+    padding: 1rem;
+}
+p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+main {
+    background-color: #E6F5FF;
+}
+header, footer {
+    background-color:#002B47 ;
+    color: #E6F5FF;
+}
+/*TIPOGRAFIA*/
+header h1,h2 {
+    text-align: center;
+
+}
+main h1, h2, h3, h4{
+    color: #ffffff;
+    background-color: #0099FF ;
+    padding: 0.5rem;
+    margin-bottom: 0rem 
+
+}
+span {
+    font-weight: bolder;
+    color: #004675;
+}
+/*NAVEGADOR*/
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 0 0;
+    display: flex;
+}
+nav li {
+    margin: 0;
+}
+nav a {
+    display: block;
+    padding: 0.6em 1.2em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #47B4FF;
+}
+nav a:hover {
+    background-color: #E6F5FF;
+    color: #004675;
+}
+nav a:visited {
+    color: white; 
 }
