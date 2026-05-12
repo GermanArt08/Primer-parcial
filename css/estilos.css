@@ -8,11 +8,17 @@
 }
 body {
     background-image: url(../img/fondo.png);
-    padding: 1rem;
+    background-attachment: fixed;
 }
 p {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+}
+aside p {
+    padding-top: 1rem;
+}
+p:last-of-type {
+    padding-bottom: 1rem;
 }
 main {
     background-color: #E6F5FF;
@@ -26,12 +32,13 @@ header h1,h2 {
     text-align: center;
 
 }
-main h1, h2, h3, h4{
+main h2, h3, h4{
     color: #ffffff;
     background-color: #0099FF ;
     padding: 0.5rem;
-    margin-bottom: 0rem 
-
+    padding-left: 1.5rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
 }
 span {
     font-weight: bolder;
@@ -47,18 +54,24 @@ nav ul {
 nav li {
     margin: 0;
 }
-nav a {
+nav a:link {
     display: block;
     padding: 0.6em 1.2em;
-    color: white;
+    color: #004675;
     text-decoration: none;
     font-weight: bold;
     background-color: #47B4FF;
 }
-nav a:hover {
+a:visited {
+    color: white; 
+}
+a:hover {
     background-color: #E6F5FF;
     color: #004675;
 }
-nav a:visited {
-    color: white; 
+a:active {
+    background-color: #004675;
+    color:#E6F5FF
+
 }
+
