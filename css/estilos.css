@@ -12,10 +12,7 @@ body {
 }
 main {
     background-color: #E6F5FF;
-}
-p {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 1.5rem;
 }
 aside {
     padding: 0.5rem 0.5rem 0 0;
@@ -26,28 +23,21 @@ aside {
 p:last-of-type {
     padding-bottom: 1rem;
 }
-
+/*Header y Footer*/
 header, footer {
     background-color:#002B47 ;
     color: #E6F5FF;
-}
-/*TIPOGRAFIA*/
-h1,h2 {
+    padding: 2rem 1rem;
     text-align: center;
 }
-h3, h4{
-    color: #ffffff;
-    background-color: #0099FF ;
-    padding: 0.8rem 1.5rem;
-    margin: 1.5rem 0 1rem 0;
-    margin-right: 0.75rem;
+header h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2.5rem;
 }
-h4 {
-    font-size: larger;
-}
-span {
-    font-weight: bolder;
-    color: #004675;
+header h2 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1.2rem;
 }
 /*NAVEGADOR*/
 nav ul {
@@ -77,6 +67,27 @@ a:hover {
 a:active {
     background-color: #004675;
     color:#E6F5FF;
-
 }
+/*TIPOGRAFIA*/
+h1,h2 {
+    text-align: center;
+}
+h3, h4{
+    color: #ffffff;
+    background-color: #0099FF ;
+    padding: 0.8rem 1.5rem;
+    margin: 1.5rem 0 1rem 0;
+    margin-right: 0.75rem;
+}
+h4 {
+    font-size: larger;
+}
+span {
+    font-weight: bolder;
+    color: #004675;
+}
+img {
+    margin: 1rem 0;
+}
+
 
