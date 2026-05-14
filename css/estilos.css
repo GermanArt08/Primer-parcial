@@ -10,35 +10,40 @@ body {
     background-image: url(../img/fondo.png);
     background-attachment: fixed;
 }
+main {
+    background-color: #E6F5FF;
+}
 p {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-aside p {
-    padding-top: 1rem;
+aside {
+    padding: 0.5rem 0.5rem 0 0;
+    background-color: aliceblue;
+    margin: 1rem 1rem 0 1rem;
+    text-align: center;
 }
 p:last-of-type {
     padding-bottom: 1rem;
 }
-main {
-    background-color: #E6F5FF;
-}
+
 header, footer {
     background-color:#002B47 ;
     color: #E6F5FF;
 }
 /*TIPOGRAFIA*/
-header h1,h2 {
+h1,h2 {
     text-align: center;
-
 }
-main h2, h3, h4{
+h3, h4{
     color: #ffffff;
     background-color: #0099FF ;
-    padding: 0.5rem;
-    padding-left: 1.5rem;
-    margin-left: 0.75rem;
+    padding: 0.8rem 1.5rem;
+    margin: 1.5rem 0 1rem 0;
     margin-right: 0.75rem;
+}
+h4 {
+    font-size: larger;
 }
 span {
     font-weight: bolder;
@@ -54,7 +59,7 @@ nav ul {
 nav li {
     margin: 0;
 }
-nav a:link {
+nav a {
     display: block;
     padding: 0.6em 1.2em;
     color: #004675;
@@ -71,7 +76,7 @@ a:hover {
 }
 a:active {
     background-color: #004675;
-    color:#E6F5FF
+    color:#E6F5FF;
 
 }
 
