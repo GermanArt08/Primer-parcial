@@ -81,8 +81,14 @@ span {
     font-weight: bolder;
     color: #004675;
 }
+/*Imágenes y video*/
 img {
     margin: 1rem 0;
+}
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
 }
 
 
