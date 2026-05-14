@@ -18,6 +18,7 @@ aside {
     padding: 0.5rem;
     background-color: aliceblue;
     text-align: center;
+    border: 2px solid #004675;
 }
 /*Header y Footer*/
 header, footer {
@@ -31,23 +32,26 @@ header h1 {
     font-size: 2.5rem;
 }
 header h2 {
-    margin: 0;
+    margin-bottom: 1.5rem;
     font-weight: normal;
+    font-style: oblique;
     font-size: 1.2rem;
 }
 /*NAVEGADOR*/
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 1.5rem 0 0 0;
+    margin:0;
     display: flex;
 }
 nav li {
     margin: 0;
+    display: inline-block;
 }
 nav a {
     display: block;
     padding: 0.6em 1.2em;
+    border: 2px solid #002B47;
     color: #004675;
     text-decoration: none;
     font-weight: bold;
@@ -71,8 +75,9 @@ h1,h2 {
 h3, h4{
     color: #ffffff;
     background-color: #0099FF ;
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 1rem;
     margin: 1rem 0 1rem 0;
+    border: 2px solid #004675;
 }
 h4 {
     font-size: larger;
